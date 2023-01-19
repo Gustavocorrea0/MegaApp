@@ -14,9 +14,10 @@ public class calcularRaioCircunferencia {
         System.out.println("Qual é o raio da circunferencia ?");
         raio = scanner.nextDouble();
         while (raio < 0){
-            System.out.println("Número invalido!!!");
             System.out.println("+------------------------------------------+");
-            System.out.println("Qual é o raio da circunferencia em metros?");
+            System.out.println("|            Número invalido!!!            |");
+            System.out.println("+------------------------------------------+");
+            System.out.println("| Qual é o raio da circunferencia em metros?");
             raio = scanner.nextDouble();
         }
 
